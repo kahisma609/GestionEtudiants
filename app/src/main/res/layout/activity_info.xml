@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F6FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Info"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1E293B"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About GestionÉtudiants"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#0F172A"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nVersion: 1.0.0\nPlatform: Android Native (Kotlin)\n\nBuilt to streamline student records, attendance tracking, and administrative data management seamlessly."
+                android:textSize="14sp"
+                android:textColor="#475569"
+                android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Back to Dashboard"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#64748B"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

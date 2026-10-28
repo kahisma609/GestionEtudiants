@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#F5F6FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Portal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1E293B"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage trainee tracking and records"
+        android:textSize="14sp"
+        android:textColor="#64748B"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Trainee Overview Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="System Dashboard"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#0F172A"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Total Active Trainees: 142\n• Current Track: Mobile Development\n• Status: All sync systems operational"
+                android:textSize="14sp"
+                android:textColor="#475569"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnOpenInfo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="View App Information"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#2563EB"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
